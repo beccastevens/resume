@@ -1,0 +1,58 @@
+.resume { color: #444; font-weight: 400; display: grid; grid-template-columns: 194px auto; max-width: 1100px; margin: 0 auto; font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 1.125; }
+
+.resume__head { grid-column-start: 1; grid-column-end: 3; background: #4a4a4a; color: #fff; text-align: center; padding: 76px 0 42px; }
+
+.resume__head--name { letter-spacing: 0.035em; font-size: 3.5em; margin: 0; }
+
+.resume__head--name span { font-weight: 300; }
+
+.resume__head--title { margin: 0; font-weight: 300; }
+
+.resume__meta { grid-column-start: 1; grid-column-end: 2; padding-right: 1.25em; text-align: right; padding-top: 1em; }
+
+.resume__meta--heading { font-size: 1.44em; margin: 1em 0 .25em; }
+
+.resume__meta--list { list-style: none; margin: 0; padding: 0; }
+
+.resume__meta--list-item a { text-decoration: none; word-break: break-all; color: #444; }
+
+.resume__meta--list-item a:visited, .resume__meta--list-item a:focus, .resume__meta--list-item a:hover { color: #444; }
+
+.resume__meta--list-item a:focus, .resume__meta--list-item a:hover { text-decoration: underline; }
+
+.resume__content { grid-column-start: 2; grid-column-end: 3; padding-left: 1.25em; }
+
+.resume__section--heading { font-size: 2em; }
+
+.resume__subsection { display: grid; grid-template-columns: 6.44em auto; margin-bottom: 1em; }
+
+.resume__subsection--heading { display: flex; justify-content: space-between; margin: 0; }
+
+.resume__date { grid-column-start: 1; grid-column-end: 2; padding-right: 1.25em; margin: 0; }
+
+.resume__subsection--heading, .resume__title, .resume__descr, .resume__descr-list { grid-column-start: 2; }
+
+.resume__location { font-weight: 300; opacity: 0.6; }
+
+.resume__title, .resume__descr, .resume__descr-list { margin: 0.5em 0 0; }
+
+.resume__title { font-style: italic; }
+
+.resume__descr-list li { margin-bottom: .5em; }
+
+@media print { @page :footer { display: none; }
+  @page :header { display: none; }
+  body { padding-top: 0; padding-bottom: 2.25em; }
+  .resume { font-size: .88em; }
+  .resume__head { padding: 2.25em 0; }
+  .resume__meta { padding-top: 0.125em; }
+  .resume__section--heading { margin: 0.5em 0; }
+  .resume__subsection { margin-bottom: .625em; }
+  .resume__title, .resume__descr, .resume__descr-list { margin-top: 0; }
+  .resume__title li, .resume__descr li, .resume__descr-list li { margin-bottom: 0; } }
+
+h1, h2, h3 { text-transform: lowercase; }
+
+h1, h2, h2, h4, h5 { font-family: 'Raleway', sans-serif; font-weight: 700; }
+
+/*# sourceMappingURL=style.css.map */
