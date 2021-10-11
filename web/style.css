@@ -1,4 +1,32 @@
-.resume { color: #444; font-weight: 400; display: grid; grid-template-columns: 194px auto; max-width: 1100px; margin: 0 auto; font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 1.125; }
+.cover-letter, .resume { color: #444; font-weight: 400; max-width: 1100px; margin: 0 auto; font-family: 'Source Sans Pro', sans-serif; font-size: 18px; }
+
+.cover-letter__head { background: #4a4a4a; color: #fff; text-align: center; padding: 40px 0 30px; }
+
+.cover-letter__head--name { letter-spacing: 0.035em; font-size: 2.5em; margin: 0; }
+
+.cover-letter__head--name span { font-weight: 300; }
+
+.cover-letter__meta--list { list-style: none; margin: 0; padding: 0; }
+
+.cover-letter__meta--list-item { display: inline-block; margin-right: 12px; }
+
+.cover-letter__meta--list-item:after { content: '|'; display: inline-block; margin-left: 12px; }
+
+.cover-letter__meta--list-item:last-of-type { margin-right: 0; }
+
+.cover-letter__meta--list-item:last-of-type:after { display: none; }
+
+.cover-letter__meta--list-item a { text-decoration: none; word-break: break-all; color: #fff; }
+
+.cover-letter__meta--list-item a:visited, .cover-letter__meta--list-item a:focus, .cover-letter__meta--list-item a:hover { color: #fff; }
+
+.cover-letter__meta--list-item a:focus, .cover-letter__meta--list-item a:hover { text-decoration: underline; }
+
+.cover-letter__content { line-height: 1.25; margin-top: 40px; }
+
+.cover-letter__closing { margin-bottom: 60px; }
+
+.resume { display: grid; grid-template-columns: 194px auto; column-gap: 32px; line-height: 1.125; }
 
 .resume__head { grid-column-start: 1; grid-column-end: 3; background: #4a4a4a; color: #fff; text-align: center; padding: 76px 0 42px; }
 
@@ -8,7 +36,7 @@
 
 .resume__head--title { margin: 0; font-weight: 300; }
 
-.resume__meta { grid-column-start: 1; grid-column-end: 2; padding-right: 1.25em; text-align: right; padding-top: 1em; }
+.resume__meta { grid-column-start: 1; grid-column-end: 2; text-align: right; padding-top: 1em; }
 
 .resume__meta--heading { font-size: 1.44em; margin: 1em 0 .25em; }
 
@@ -20,7 +48,7 @@
 
 .resume__meta--list-item a:focus, .resume__meta--list-item a:hover { text-decoration: underline; }
 
-.resume__content { grid-column-start: 2; grid-column-end: 3; padding-left: 1.25em; }
+.resume__content { grid-column-start: 2; grid-column-end: 3; }
 
 .resume__section--heading { font-size: 2em; }
 
